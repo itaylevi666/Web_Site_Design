@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,100;1,200&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>University Design</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a  href="index.html"> <img class="logo" src="Assets/logo512.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()" aria-hidden="true" ></i>
+            
+                <ul>
+                    
+                    <li> <a href="">Home</a></li>
+                    <li> <a href="">About</a></li>
+                    <li> <a href="">Course</a></li>
+                    <li> <a href="">Blog</a></li>
+                    <li> <a href="">Contact</a></li>
+                  
+                    
+                </ul>
+
+
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"aria-hidden="true"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's best Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero natus, laborum ea delectus, voluptatum tempore neque fugiat minima sed aliquam architecto explicabo ab perferendis maxime, reiciendis rem ipsum velit ratione!</p>
+          
+            <a href="" class='main-btn'>Press Here</a>
+        </div>
+
+
+    </section>
+
+    <!-- -------- -->
+
+    <section class="course">
+        <h1>Fully Responsive</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda blanditiis officiis ipsa quae vel optio beatae molestiae quia, incidunt dolorum. Rerum veniam impedit odio porro aliquam dicta omnis esse iste?</p>
+        <div class="row">
+            <div class="course-col"> 
+                <h3>Easy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem incidunt expedita doloribus quos?.</p>
+            </div>
+            <div class="course-col"> 
+                <h3>Medium</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem incidunt expedita doloribus quos? </p>
+            </div>
+            <div class="course-col"> 
+                <h3>Hard</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem incidunt expedita doloribus quos?</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="third">
+        <h1>Check the menu button</h1>
+        <p>when the width of the site is less than 700px</p>
+        <div class="row">
+            <div class="third-col">
+                <img src="Assets/road.jfif" alt="">
+                <div class="layer">
+                    <h4>1</h4>
+                </div>
+                </div>
+                <div class="third-col">
+                    <img src="Assets/paris.webp" alt="">
+                    <div class="layer">
+                        <h4>2</h4>
+                    </div>
+                </div>
+                    <div class="third-col">
+                        <img src="Assets/zen.jpg" alt="">
+                        <div class="layer">
+                            <h4>3</h4>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+<!-- --------------------------------------togglemenu---------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right= '0'
+        }
+
+        function hideMenu(){
+            navLinks.style.right= '-200px'
+        }
+    </script>
+
+
+    
+</body>
+</html>
