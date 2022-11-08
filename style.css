@@ -242,3 +242,11 @@ p{
         flex-direction: column;
      }
  }
+
+
+ .people{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+ }
